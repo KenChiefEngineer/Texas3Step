@@ -2,7 +2,7 @@
 A modern twist to the classic game of tic-tac-toe for Move38's Blink arduino based platform
 
 # Requirements
-Recommended a minimum number of 9 Blinks to play, but better with 16 or more. 
+Recommend a minimum number of 9 Blinks to play, but better with 16 or more. 
 
 # Setup
 ### Blink Layout
@@ -36,6 +36,10 @@ claim a Blink. Be the first player to claim three Blinks in a straight line to w
 * Player 1 single clicks any unclaimed Blink to claim it.
 * Player 2 single clicks any unclaimed Blink to claim it.
 * Continue alternating back and forth single clicking a blank blink to claim it
+
+NOTE: One player can pick their color while another just takes random. Both players don't have to pick
+      the same method to determine player color. Also, the color player 1 is assigned will be removed 
+      from the pool of colors available to player 2.
 
 ### GAME OVER
 * The game ends when a player claims 3 hexes in a straight line, they are the WINNER!
